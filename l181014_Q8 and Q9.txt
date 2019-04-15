@@ -1,0 +1,19 @@
+Q8)
+When the inheritance becomes protected,the public and protected members becomes protected while 
+the private members are hidden .
+
+In this case when we changes the inheritance from public to protected the member variable of age
+remains protected while first and last name becomes hidden.
+
+All the public functions of person class becomes protected in the class of student and faculty so
+they can not be used in main.
+
+Q9)
+When the inheritance becomes private,the public and protected members becomes private while 
+the private members are hidden .
+
+In this case when we changes the inheritance from public to private the member variable of age
+becomes private while first and last name becomes hidden.
+
+All the public functions of person class becomes private in the class of student and faculty so
+they can not be used in main.

@@ -1,0 +1,17 @@
+a)Age attribute in a Person is protected, while the first_name and last_name attributes are private because the name is a unique identity and should be private.
+
+Also,we have to check function of inheritance like which members will be assesable and which will not implies that the protected members are asseccable while private
+
+members are inaccessible. 
+
+b)
+Error 4 error C2248: 'person::last_name' : cannot access private member declared in class 'person'	
+
+IntelliSense: member "person::last_name" (declared at line 10 of "c:\users\temp.domain.002\documents\visual studio 2012\projects\lab 11\lab 11\person.h") is inaccessible
+
+IntelliSense: member "person::first_name" (declared at line 9 of "c:\users\temp.domain.002\documents\visual studio 2012\projects\lab 11\lab 11\person.h") is inaccessible
+
+c)
+the above error is because the first name and the last name are the private members of the class person when we inherit them they will become hidden in the derive classes 
+
+of student and faculty so they are inaccessible
